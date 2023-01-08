@@ -1,4 +1,5 @@
 type : edu
+custom_name : Customise a Button
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
@@ -26,3 +27,8 @@ files :
     visible : false
   - name : build.gradle
     visible : false
+  - name : assets/view-and-viewgroups.png
+    visible : false
+  - name : library/src/main/res/font/rubik_medium.ttf
+    visible : false
+solution_hidden : false
