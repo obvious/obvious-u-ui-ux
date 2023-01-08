@@ -6,4 +6,7 @@
   <color name="grey_80">#EBEDF0</color>
   <color name="red_50">#D73A42</color>
   <color name="colorAccent">#FF4081</color>
+  <color name="purple_500">#9E2BCF</color>
+  <color name="purple_700">#721194</color>
+  <color name="white_a90">#E6FFFFFF</color>
 </resources>

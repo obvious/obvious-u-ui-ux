@@ -3,8 +3,8 @@
   <!-- Base application theme. -->
   <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
     <!-- Customize your theme here. -->
-    <item name="colorPrimary">@color/blue_50</item>
-    <item name="colorPrimaryDark">@color/blue_40</item>
+    <item name="colorPrimary">@color/purple_500</item>
+    <item name="colorPrimaryDark">@color/purple_700</item>
     <item name="colorAccent">@color/colorAccent</item>
   </style>
 </resources>

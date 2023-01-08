@@ -23,8 +23,6 @@ files :
     visible : false
   - name : library/src/test/java/com/example/android/library/MainActivityLayoutTest.kt
     visible : false
-  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_layout.png
-    visible : false
   - name : library/build.gradle
     visible : false
   - name : build.gradle
@@ -33,4 +31,8 @@ files :
     visible : false
   - name : library/src/main/res/font/rubik_medium.ttf
     visible : false
+  - name : library/src/main/res/drawable/ic_save_24dp.xml
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button.png
+    visible : true
 solution_hidden : false
