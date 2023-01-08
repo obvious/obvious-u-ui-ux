@@ -3,6 +3,8 @@ custom_name : Customise a Button
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
+  - name : library/src/main/res/values/themes.xml
+    visible : true
   - name : library/src/main/res/values/styles.xml
     visible : true
   - name : library/src/main/res/values/colors.xml
