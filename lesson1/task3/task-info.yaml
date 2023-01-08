@@ -31,4 +31,8 @@ files :
     visible : true
   - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button.png
     visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_pressed.png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_disabled.png
+    visible : true
 solution_hidden : false
