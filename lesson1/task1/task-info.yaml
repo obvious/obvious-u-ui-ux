@@ -1,5 +1,5 @@
 type : edu
-custom_name : Customise a Button
+custom_name : Create a Filled button
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true

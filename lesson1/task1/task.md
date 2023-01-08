@@ -12,17 +12,6 @@ objects, such as `LinearLayout` or `ConstraintLayout`.
 1. In XML file
 2. At runtime
 
-## Find your views
-
-Any `View` object may have an integer ID associated with it. This ID can be used to find the `View`
-within the tree
-
-```
-<TextView android:id="@+id/textView" .../>
-
-val textView = findViewById<TextView>(R.id.textView)
-```
-
 ## Attributes and layout parameters
 XML attributes are used to set the properties of the `View` objects. Eg. `android:text` and `android:textColor` for `TextView`.
 ```xml
@@ -43,7 +32,10 @@ XML layout attributes named `layout_something` define layout parameters for the 
       android:text="Hello World!" />
 </LinearLayout>
 ```
-## Size, Padding, and Margin
 
 # Exercise
-- Implement your code in [activity_main.xml](course://lesson1/task1/library/src/main/res/layout/activity_main.xml) file
+- Follow the designs on figma to create and customize the buttons using a material
+  library. [Ui/Ux on Mobile](https://www.figma.com/file/yoK55huhMrsyC21CwaJrwF/Ui%2FUx-On-Mobile?node-id=11%3A2555&t=2UX0xtAnW5EUbzMy-4)
+- Implement your code
+  in [activity_main.xml](course://lesson1/task1/library/src/main/res/layout/activity_main.xml) file
+- [Buttons - Material Design](https://m2.material.io/components/buttons/android)
