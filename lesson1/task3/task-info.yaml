@@ -1,0 +1,34 @@
+type : edu
+custom_name : Add Disabled & Pressed States to Button
+files :
+  - name : library/src/main/res/layout/activity_main.xml
+    visible : true
+  - name : library/src/main/res/values/themes.xml
+    visible : true
+  - name : library/src/main/res/values/styles.xml
+    visible : true
+  - name : library/src/main/res/values/colors.xml
+    visible : true
+  - name : src/main/res/values/strings.xml
+    visible : false
+  - name : src/main/java/com/example/android/course/MainActivity.kt
+    visible : false
+  - name : src/main/AndroidManifest.xml
+    visible : false
+  - name : src/test/java/com/example/android/course/ExampleUnitTest.kt
+    visible : false
+  - name : library/src/main/AndroidManifest.xml
+    visible : false
+  - name : library/src/test/java/com/example/android/library/MainActivityLayoutTest.kt
+    visible : false
+  - name : library/build.gradle
+    visible : false
+  - name : build.gradle
+    visible : false
+  - name : library/src/main/res/font/rubik_medium.ttf
+    visible : false
+  - name : library/src/main/res/drawable/ic_save_24dp.xml
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button.png
+    visible : true
+solution_hidden : false
