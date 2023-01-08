@@ -50,5 +50,6 @@ task clean(type: Delete) {
   delete rootProject.buildDir
   rootProject.getChildProjects().forEach{ name, project ->
     delete project.buildDir
+    delete "${project.projectDir}/out"
   }
 }
