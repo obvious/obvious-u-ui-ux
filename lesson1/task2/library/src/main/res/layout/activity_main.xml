@@ -11,11 +11,21 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:gravity="center"
+    android:clipToPadding="false"
     android:padding="16dp">
 
     <com.google.android.material.button.MaterialButton
       android:id="@+id/button_reset"
-      style="@style/Widget.App.Button"
+      style="@style/Widget.MaterialComponents.Button"
+      android:insetTop="0dp"
+      android:insetBottom="0dp"
+      android:fontFamily="@font/rubik_medium"
+      android:textSize="16sp"
+      android:textAllCaps="false"
+      app:cornerRadius="64dp"
+      android:textColor="@color/white_a90"
+      android:stateListAnimator="@null"
+      android:letterSpacing="0.02"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
