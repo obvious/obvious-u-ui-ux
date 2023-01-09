@@ -3,29 +3,28 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@color/grey_80"
   tools:ignore="HardcodedText">
 
-  <LinearLayout
+  <androidx.appcompat.widget.LinearLayoutCompat
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:gravity="center"
-    android:orientation="vertical"
     android:padding="16dp">
 
-    <androidx.appcompat.widget.AppCompatButton
-      android:id="@+id/button_brand"
+    <Button
+      android:id="@+id/button_reset"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Brand" />
+      android:layout_gravity="center"
+      android:layout_marginEnd="16dp"
+      android:text="Reset" />
 
-    <androidx.appcompat.widget.AppCompatButton
-      android:id="@+id/button_alert"
+    <Button
+      android:id="@+id/button_save"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="24dp"
-      android:text="Alert" />
-  </LinearLayout>
-
+      android:layout_gravity="center"
+      android:text="Save" />
+  </androidx.appcompat.widget.LinearLayoutCompat>
 </FrameLayout>

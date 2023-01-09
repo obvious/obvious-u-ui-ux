@@ -1,6 +1,9 @@
 type : edu
+custom_name : Create a Filled button
 files :
   - name : library/src/main/res/layout/activity_main.xml
+    visible : true
+  - name : library/src/main/res/values/themes.xml
     visible : true
   - name : library/src/main/res/values/styles.xml
     visible : true
@@ -20,9 +23,16 @@ files :
     visible : false
   - name : library/src/test/java/com/example/android/library/MainActivityLayoutTest.kt
     visible : false
-  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_layout.png
-    visible : false
   - name : library/build.gradle
     visible : false
   - name : build.gradle
     visible : false
+  - name : assets/view-and-viewgroups.png
+    visible : false
+  - name : library/src/main/res/font/rubik_medium.ttf
+    visible : false
+  - name : library/src/main/res/drawable/ic_save_24dp.xml
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button.png
+    visible : true
+solution_hidden : false

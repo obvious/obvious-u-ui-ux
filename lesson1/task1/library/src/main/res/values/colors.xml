@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <color name="blue_50">#196BE3</color>
-  <color name="blue_40">#0B54C0</color>
-  <color name="white_100">#FFFFFF</color>
-  <color name="grey_80">#EBEDF0</color>
-  <color name="red_50">#D73A42</color>
-  <color name="colorAccent">#FF4081</color>
+  <color name="purple_500">#9E2BCF</color>
+  <color name="purple_700">#721194</color>
 </resources>
