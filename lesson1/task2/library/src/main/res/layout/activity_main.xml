@@ -10,36 +10,46 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:gravity="center"
     android:clipToPadding="false"
+    android:gravity="center"
     android:padding="16dp">
 
     <com.google.android.material.button.MaterialButton
       android:id="@+id/button_reset"
       style="@style/Widget.MaterialComponents.Button"
-      android:insetTop="0dp"
-      android:insetBottom="0dp"
-      android:fontFamily="@font/rubik_medium"
-      android:textSize="16sp"
-      android:textAllCaps="false"
-      app:cornerRadius="64dp"
-      android:textColor="@color/white_a90"
-      android:stateListAnimator="@null"
-      android:letterSpacing="0.02"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:layout_marginEnd="16dp"
-      android:text="Reset" />
+      android:fontFamily="@font/rubik_medium"
+      android:insetTop="0dp"
+      android:insetBottom="0dp"
+      android:letterSpacing="0.02"
+      android:stateListAnimator="@null"
+      android:text="Reset"
+      android:textAllCaps="false"
+      android:textColor="@color/white_a90"
+      android:textSize="16sp"
+      app:cornerRadius="64dp" />
 
     <com.google.android.material.button.MaterialButton
       android:id="@+id/button_save"
-      style="@style/Widget.App.Button"
+      style="@style/Widget.MaterialComponents.Button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
+      android:fontFamily="@font/rubik_medium"
+      android:insetTop="0dp"
+      android:insetBottom="0dp"
+      android:letterSpacing="0.02"
+      android:stateListAnimator="@null"
       android:text="Save"
+      android:textAllCaps="false"
+      android:textColor="@color/white_a90"
+      android:textSize="16sp"
+      app:cornerRadius="64dp"
       app:icon="@drawable/ic_save_24dp"
-      app:iconGravity="textEnd" />
+      app:iconGravity="textEnd"
+      app:iconTint="@color/white_a90" />
   </androidx.appcompat.widget.LinearLayoutCompat>
 </FrameLayout>
