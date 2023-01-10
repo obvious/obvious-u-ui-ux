@@ -23,6 +23,7 @@ class MainActivityLayoutTest {
     val view = paparazzi.inflate<FrameLayout>(R.layout.activity_main)
     view.findViewById<MaterialButton>(R.id.button_save).isPressed = true
     view.findViewById<MaterialButton>(R.id.button_reset).isPressed = true
+    view.findViewById<MaterialButton>(R.id.button_download).isPressed = true
     paparazzi.snapshot(view)
   }
 
@@ -31,6 +32,7 @@ class MainActivityLayoutTest {
     val view = paparazzi.inflate<FrameLayout>(R.layout.activity_main)
     view.findViewById<MaterialButton>(R.id.button_save).isEnabled = false
     view.findViewById<MaterialButton>(R.id.button_reset).isEnabled = false
+    view.findViewById<MaterialButton>(R.id.button_download).isEnabled = false
     paparazzi.snapshot(view)
   }
 }
