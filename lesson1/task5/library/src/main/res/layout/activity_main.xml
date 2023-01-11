@@ -20,53 +20,34 @@
 
       <com.google.android.material.button.MaterialButton
         android:id="@+id/button_reset"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        style="@style/Widget.App.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginEnd="16dp"
-        android:fontFamily="@font/rubik_medium"
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:letterSpacing="0.02"
-        android:stateListAnimator="@null"
-        android:text="Reset"
-        android:textAllCaps="false"
-        android:textColor="@color/button_outlined_text"
-        android:textSize="16sp"
-        app:backgroundTint="@color/button_outlined_tint"
-        app:cornerRadius="64dp"
-        app:iconTint="@color/button_outlined_text"
-        app:strokeColor="@color/button_outlined_stroke_tint"
-        app:strokeWidth="1dp" />
+        android:text="Reset" />
 
       <com.google.android.material.button.MaterialButton
         android:id="@+id/button_save"
-        style="@style/Widget.MaterialComponents.Button"
+        style="@style/Widget.App.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="@font/rubik_medium"
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:letterSpacing="0.02"
-        android:stateListAnimator="@null"
         android:text="Save"
-        android:textAllCaps="false"
-        android:textColor="@color/button_filled_text"
-        android:textSize="16sp"
-        app:backgroundTint="@color/button_filled_tint"
-        app:cornerRadius="64dp"
         app:icon="@drawable/ic_save_24dp"
-        app:iconGravity="textEnd"
-        app:iconTint="@color/button_filled_text" />
+        app:iconGravity="textEnd" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <com.google.android.material.button.MaterialButton
       android:id="@+id/button_download"
+      style="@style/Widget.App.Button.TextButton"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
-      android:text="Download" />
+      android:layout_marginTop="24dp"
+      android:text="Download"
+      app:icon="@drawable/ic_cloud_download"
+      app:iconGravity="textStart" />
   </androidx.appcompat.widget.LinearLayoutCompat>
 </FrameLayout>

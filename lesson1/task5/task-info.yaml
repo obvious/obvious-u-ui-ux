@@ -1,5 +1,5 @@
 type : edu
-custom_name : Creating TextButton with style
+custom_name : Solution
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
@@ -38,6 +38,8 @@ files :
   - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_disabled.png
     visible : true
   - name : library/src/main/res/color/button_filled_text.xml
+    visible : true
+  - name : library/src/main/res/color/textbutton_text.xml
     visible : true
   - name : library/src/main/res/color/button_outlined_tint.xml
     visible : true
