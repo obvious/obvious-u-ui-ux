@@ -1,5 +1,5 @@
 type : edu
-custom_name : Solution
+custom_name : Theme vs Styles
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
@@ -46,5 +46,7 @@ files :
   - name : library/src/main/res/color/button_outlined_text.xml
     visible : true
   - name : library/src/main/res/color/button_outlined_stroke_tint.xml
+    visible : true
+  - name : library/src/main/res/values/attrs.xml
     visible : true
 solution_hidden : false
