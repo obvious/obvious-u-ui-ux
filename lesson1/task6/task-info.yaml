@@ -1,5 +1,5 @@
 type : edu
-custom_name : Theme vs Styles
+custom_name : Day-Night theme
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
@@ -48,5 +48,7 @@ files :
   - name : library/src/main/res/color/button_outlined_stroke_tint.xml
     visible : true
   - name : library/src/main/res/values/attrs.xml
+    visible : true
+  - name : library/src/main/res/values-night/themes.xml
     visible : true
 solution_hidden : false
