@@ -29,13 +29,7 @@ files :
     visible : false
   - name : library/src/main/res/drawable/ic_save_24dp.xml
     visible : true
-  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button.png
-    visible : true
   - name : library/src/main/res/color/button_filled_tint.xml
-    visible : true
-  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_pressed.png
-    visible : true
-  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_disabled.png
     visible : true
   - name : library/src/main/res/color/button_filled_text.xml
     visible : true
