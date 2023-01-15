@@ -11,5 +11,6 @@
     <item name="colorTextPrimaryOnColor">@color/black_alpha_90</item>
     <item name="colorTextDisabled">@color/white_alpha_30</item>
     <item name="colorOutlineBold">@color/slate_200</item>
+    <item name="android:windowBackground">?colorBgPrimary</item>
   </style>
 </resources>
