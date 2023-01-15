@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="colorPrimarySubtle" format="color" />
+  <attr name="colorBgPrimary" format="color" />
+  <attr name="colorBgDisabled" format="color" />
+  <attr name="colorTextPrimary" format="color" />
+  <attr name="colorTextPrimaryOnColor" format="color" />
+  <attr name="colorTextDisabled" format="color" />
+  <attr name="colorOutlineBold" format="color" />
+</resources>
