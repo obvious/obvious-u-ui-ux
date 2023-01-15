@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!--  Implement dark variant of AppTheme here-->
-  <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-    <item name="colorPrimary">@color/purple_300</item>
-    <item name="colorPrimaryDark">@color/purple_500</item>
-    <item name="colorPrimarySubtle">@color/purple_900</item>
-    <item name="colorBgPrimary">@color/neutral_900</item>
-    <item name="colorBgDisabled">@color/neutral_600</item>
-    <item name="colorTextPrimary">@color/white_alpha_90</item>
-    <item name="colorTextPrimaryOnColor">@color/black_alpha_90</item>
-    <item name="colorTextDisabled">@color/white_alpha_30</item>
-    <item name="colorOutlineBold">@color/slate_200</item>
-    <item name="android:windowBackground">?colorBgPrimary</item>
-  </style>
 </resources>
