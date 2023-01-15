@@ -51,4 +51,16 @@ files :
     visible : true
   - name : library/src/main/res/values-night/themes.xml
     visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_disabled[PIXEL_4A_NIGHT].png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button[PIXEL_4A_NIGHT].png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_disabled[PIXEL_4A].png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button[PIXEL_4A].png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_pressed[PIXEL_4A_NIGHT].png
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityLayoutTest_button_pressed[PIXEL_4A].png
+    visible : true
 solution_hidden : false
