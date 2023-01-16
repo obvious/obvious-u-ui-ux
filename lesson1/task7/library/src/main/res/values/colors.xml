@@ -11,6 +11,12 @@
   <color name="purple_100">#FFE3C3F2</color>
   <color name="purple_50">#FFF7EDFB</color>
 
+  <color name="violet_900">#FF201542</color>
+  <color name="violet_800">#FF2E1E62</color>
+  <color name="violet_700">#FF3C2882</color>
+  <color name="violet_600">#FF4C37A2</color>
+  <color name="violet_500">#FF624DC2</color>
+
   <color name="slate_900">#FF0A0B0D</color>
   <color name="slate_800">#FF23272B</color>
   <color name="slate_700">#FF3C4249</color>
