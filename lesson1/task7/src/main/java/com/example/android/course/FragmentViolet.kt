@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.view.ContextThemeWrapper
 import androidx.fragment.app.Fragment
-import com.example.android.library.R
 
 class FragmentViolet : Fragment() {
   override fun onCreateView(
@@ -16,7 +16,9 @@ class FragmentViolet : Fragment() {
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View? {
-    return layoutInflater.inflate(R.layout.fragment_violet, container, false)
+    val themedInflater =
+      LayoutInflater.from(ContextThemeWrapper(requireContext(), R.style.ThemeOverlay_App_Violet))
+    return themedInflater.inflate(R.layout.fragment_violet, container, false)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -25,6 +27,6 @@ class FragmentViolet : Fragment() {
       parentFragmentManager.popBackStack()
     }
     view.findViewById<TextView>(R.id.tv_title)
-      .setTextColor(ColorStateList.valueOf(requireContext().resolveColor(R.attr.colorPrimary)))
+      .setTextColor(ColorStateList.valueOf(view.context.resolveColor(R.attr.colorPrimary)))
   }
 }

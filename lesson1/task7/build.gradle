@@ -31,13 +31,6 @@ def getModuleName() {
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
   implementation "androidx.appcompat:appcompat:$appcompat_version"
+  implementation "com.google.android.material:material:$material_version"
   testImplementation "junit:junit:$junit_version"
-  implementation(project(":${getModuleName()}-library"))
-}
-
-
-tasks.whenTaskAdded { task ->
-  if (task.name == "testDebugUnitTest") {
-    task.dependsOn(":${getModuleName()}-library:verifyPaparazziDebug")
-  }
 }
