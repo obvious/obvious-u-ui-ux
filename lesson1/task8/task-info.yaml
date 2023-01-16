@@ -1,5 +1,5 @@
 type : output
-custom_name : Theme scope
+custom_name : Solution - Theme scope
 files :
   - name : src/main/res/values/strings.xml
     visible : false
@@ -46,9 +46,5 @@ files :
   - name : src/main/res/values-night/themes.xml
     visible : true
   - name : src/main/java/com/example/android/course/FragmentViolet.kt
-    visible : true
-  - name : assets/fragment_purple.png
-    visible : true
-  - name : assets/fragment_violet.png
     visible : true
 solution_hidden : false
