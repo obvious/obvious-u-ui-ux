@@ -15,7 +15,7 @@ class FragmentPurple : Fragment() {
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View? {
-    return layoutInflater.inflate(R.layout.fragment_purple, container, false)
+    TODO("Inflate layout with Purple theme")
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

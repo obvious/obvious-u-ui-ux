@@ -12,9 +12,4 @@
     <item name="colorOutlineBold">@color/slate_200</item>
     <item name="android:windowBackground">?colorBgPrimary</item>
   </style>
-
-  <style name="ThemeOverlay.App.Violet" parent="">
-    <item name="colorPrimary">@color/violet_500</item>
-    <item name="colorPrimaryDark">@color/violet_700</item>
-  </style>
 </resources>

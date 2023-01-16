@@ -47,4 +47,8 @@ files :
     visible : true
   - name : src/main/java/com/example/android/course/FragmentViolet.kt
     visible : true
+  - name : assets/fragment_purple.png
+    visible : true
+  - name : assets/fragment_violet.png
+    visible : true
 solution_hidden : false
