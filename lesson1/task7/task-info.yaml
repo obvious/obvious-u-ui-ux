@@ -1,5 +1,5 @@
 type : edu
-custom_name : Day-Night theme
+custom_name : Theme scope
 files :
   - name : library/src/main/res/layout/activity_main.xml
     visible : true
