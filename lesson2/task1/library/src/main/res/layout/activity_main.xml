@@ -8,18 +8,16 @@
   android:paddingHorizontal="32dp"
   tools:ignore="HardcodedText">
 
-  <com.google.android.material.textview.MaterialTextView
+  <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:textAppearance="@style/TextAppearance.App.ButtonNormal"
     android:textColor="?colorTextPrimary"
     android:text="Terms and Conditions!" />
 
-  <com.google.android.material.textview.MaterialTextView
+  <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
-    android:textAppearance="@style/TextAppearance.App.BodyLarge"
     android:textColor="?colorTextPrimary"
     android:text="Non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non" />
 
