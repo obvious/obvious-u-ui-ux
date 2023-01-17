@@ -17,7 +17,7 @@ files :
     visible : false
   - name : library/src/main/AndroidManifest.xml
     visible : false
-  - name : library/src/test/java/com/example/android/library/MainActivityLayoutTest.kt
+  - name : library/src/test/java/com/example/android/library/MainActivityTest.kt
     visible : false
   - name : library/build.gradle
     visible : false
@@ -36,5 +36,7 @@ files :
   - name : library/src/main/java/com/example/android/library/MainActivity.kt
     visible : true
   - name : library/src/main/res/font/rubik_regular.ttf
+    visible : true
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityTest_layout[PIXEL_4A].png
     visible : true
 solution_hidden : false

@@ -8,14 +8,14 @@
   android:paddingHorizontal="32dp"
   tools:ignore="HardcodedText">
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textAppearance="@style/TextAppearance.App.ButtonNormal"
     android:textColor="?colorTextPrimary"
     android:text="Terms and Conditions!" />
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
