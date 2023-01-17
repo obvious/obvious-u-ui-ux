@@ -35,4 +35,6 @@ files :
     visible : true
   - name : library/src/main/java/com/example/android/library/MainActivity.kt
     visible : true
+  - name : library/src/main/res/font/rubik_regular.ttf
+    visible : true
 solution_hidden : false
