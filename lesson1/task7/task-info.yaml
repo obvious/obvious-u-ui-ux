@@ -13,8 +13,6 @@ files :
     visible : false
   - name : src/main/java/com/example/android/course/FragmentPurple.kt
     visible : true
-  - name : src/main/java/com/example/android/course/ThemeUtils.kt
-    visible : true
   - name : src/main/res/layout/fragment_purple.xml
     visible : true
   - name : src/main/res/layout/activity_main.xml
