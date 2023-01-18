@@ -59,4 +59,6 @@
   <color name="white_alpha_70">#B2FFFFFF</color>
   <color name="white_alpha_80">#CCFFFFFF</color>
   <color name="white_alpha_90">#E6FFFFFF</color>
+
+  <color name="red_50">#FDEFF1</color>
 </resources>

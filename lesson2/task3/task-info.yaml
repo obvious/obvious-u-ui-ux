@@ -23,8 +23,6 @@ files :
     visible : false
   - name : build.gradle
     visible : false
-  - name : library/src/main/res/font/rubik_medium.ttf
-    visible : true
   - name : library/src/main/res/color/button_filled_tint.xml
     visible : true
   - name : library/src/main/res/color/button_filled_text.xml
@@ -35,8 +33,10 @@ files :
     visible : true
   - name : library/src/main/java/com/example/android/library/MainActivity.kt
     visible : true
-  - name : library/src/main/res/font/rubik_regular.ttf
-    visible : true
   - name : library/src/test/snapshots/images/com.example.android.library_MainActivityTest_layout[PIXEL_4A].png
+    visible : true
+  - name : library/src/main/res/font/dls_rubik_regular.ttf
+    visible : true
+  - name : library/src/main/res/font/dls_rubik_medium.ttf
     visible : true
 solution_hidden : false
