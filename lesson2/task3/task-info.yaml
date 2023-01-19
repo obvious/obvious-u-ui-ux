@@ -39,4 +39,6 @@ files :
     visible : true
   - name : library/src/main/res/font/dls_rubik_medium.ttf
     visible : true
+  - name : library/src/test/snapshots/videos/figma_overlay.gif
+    visible : true
 solution_hidden : false
