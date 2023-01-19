@@ -35,10 +35,10 @@ files :
     visible : true
   - name : library/src/test/snapshots/images/com.example.android.library_MainActivityTest_layout[PIXEL_4A].png
     visible : true
-  - name : library/src/main/res/font/dls_rubik_regular.ttf
-    visible : true
-  - name : library/src/main/res/font/dls_rubik_medium.ttf
-    visible : true
   - name : library/src/test/snapshots/videos/figma_overlay.gif
+    visible : true
+  - name : library/src/main/res/font/rubik_medium.ttf
+    visible : true
+  - name : library/src/main/res/font/rubik_regular.ttf
     visible : true
 solution_hidden : false
