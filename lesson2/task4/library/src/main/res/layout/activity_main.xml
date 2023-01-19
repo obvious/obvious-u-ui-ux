@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:paddingHorizontal="32dp"
+  tools:ignore="HardcodedText">
+
+  <com.google.android.material.textview.MaterialTextView
+    style="@style/TextStyle.App.ButtonNormal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Terms and Conditions!"
+    android:textColor="?colorTextPrimary" />
+
+  <com.google.android.material.textview.MaterialTextView
+    style="@style/TextStyle.App.BodyLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non"
+    android:textColor="?colorTextPrimary" />
+
+  <com.google.android.material.button.MaterialButton
+    style="@style/Widget.App.Button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Accept" />
+</LinearLayout>
