@@ -1,50 +1,40 @@
-type : output
-custom_name : Solution - Theme scope
+type : edu
+custom_name : TextAppearance
 files :
+  - name : library/src/main/res/layout/activity_main.xml
+    visible : true
+  - name : library/src/main/res/values/themes.xml
+    visible : true
+  - name : library/src/main/res/values/styles.xml
+    visible : true
+  - name : library/src/main/res/values/colors.xml
+    visible : true
   - name : src/main/res/values/strings.xml
     visible : false
-  - name : src/main/java/com/example/android/course/MainActivity.kt
-    visible : true
   - name : src/main/AndroidManifest.xml
     visible : false
   - name : src/test/java/com/example/android/course/ExampleUnitTest.kt
     visible : false
+  - name : library/src/main/AndroidManifest.xml
+    visible : false
+  - name : library/src/test/java/com/example/android/library/MainActivityTest.kt
+    visible : false
+  - name : library/build.gradle
+    visible : false
   - name : build.gradle
     visible : false
-  - name : src/main/java/com/example/android/course/FragmentPurple.kt
+  - name : library/src/main/res/font/rubik_medium.ttf
     visible : true
-  - name : src/main/java/com/example/android/course/ThemeUtils.kt
+  - name : library/src/main/res/color/button_filled_tint.xml
     visible : true
-  - name : src/main/res/layout/fragment_purple.xml
+  - name : library/src/main/res/color/button_filled_text.xml
     visible : true
-  - name : src/main/res/layout/activity_main.xml
+  - name : library/src/main/res/values/attrs.xml
     visible : true
-  - name : src/main/res/values/attrs.xml
+  - name : library/src/main/res/values-night/themes.xml
     visible : true
-  - name : src/main/res/values/colors.xml
+  - name : library/src/main/java/com/example/android/library/MainActivity.kt
     visible : true
-  - name : src/main/res/values/styles.xml
-    visible : true
-  - name : src/main/res/values/themes.xml
-    visible : true
-  - name : src/main/res/font/rubik_medium.ttf
-    visible : false
-  - name : src/main/res/color/button_filled_tint.xml
-    visible : true
-  - name : src/main/res/color/button_filled_text.xml
-    visible : true
-  - name : src/main/res/color/textbutton_text.xml
-    visible : true
-  - name : src/main/res/color/button_outlined_tint.xml
-    visible : true
-  - name : src/main/res/color/button_outlined_text.xml
-    visible : true
-  - name : src/main/res/color/button_outlined_stroke_tint.xml
-    visible : true
-  - name : src/main/res/drawable/ic_save_24dp.xml
-    visible : true
-  - name : src/main/res/values-night/themes.xml
-    visible : true
-  - name : src/main/java/com/example/android/course/FragmentViolet.kt
+  - name : library/src/test/snapshots/images/com.example.android.library_MainActivityTest_layout[PIXEL_4A].png
     visible : true
 solution_hidden : false

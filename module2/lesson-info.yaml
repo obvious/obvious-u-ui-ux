@@ -1,12 +1,11 @@
 type : framework
-custom_name : Styles, Themes, and Typography
+custom_name : "Styles, Themes, and Typography"
 content :
   - exercise1
   - exercise2
   - exercise3
   - exercise4
   - exercise5
-  - task1
-  - task2
-  - task3
-  - task4
+  - exercise6
+  - exercise7
+  - exercise8
