@@ -1,4 +1,5 @@
 ## Exercise
+
 - Somehow, `activity_main.xml` and `styles.xml` got scrambled. Please fix them.
 
 ### Expected Output
