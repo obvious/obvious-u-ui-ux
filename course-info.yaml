@@ -10,5 +10,5 @@ summary : |-
 programming_language : Kotlin
 environment : Android
 content :
-  - lesson1
-  - lesson2
+  - module1
+  - module2
