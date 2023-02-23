@@ -1,6 +1,7 @@
 type : framework
 custom_name : Styles, Themes, and Typography
 content :
+  - exercise1
   - task1
   - task2
   - task3
