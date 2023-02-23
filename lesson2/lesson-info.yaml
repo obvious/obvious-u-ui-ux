@@ -1,5 +1,5 @@
 type : framework
-custom_name : Typography
+custom_name : Styles, Themes, and Typography
 content :
   - task1
   - task2
